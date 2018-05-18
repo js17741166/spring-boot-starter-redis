@@ -1,0 +1,52 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.kg.redis.RedisPoolProperties",
+      "name": "redis",
+      "type": "com.kg.redis.RedisPoolProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.kg.redis.RedisPoolProperties",
+      "name": "redis.host",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.kg.redis.RedisPoolProperties",
+      "name": "redis.jedis-pool",
+      "type": "redis.clients.jedis.JedisPool"
+    },
+    {
+      "sourceType": "com.kg.redis.RedisPoolProperties",
+      "name": "redis.jedis-pool-config",
+      "type": "redis.clients.jedis.JedisPoolConfig"
+    },
+    {
+      "sourceType": "com.kg.redis.RedisPoolProperties",
+      "name": "redis.max-idle",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.kg.redis.RedisPoolProperties",
+      "name": "redis.max-total",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.kg.redis.RedisPoolProperties",
+      "name": "redis.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.kg.redis.RedisPoolProperties",
+      "name": "redis.port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.kg.redis.RedisPoolProperties",
+      "name": "redis.test-onborrow",
+      "type": "java.lang.Boolean"
+    }
+  ]
+}
